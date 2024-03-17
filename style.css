@@ -1,0 +1,104 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin:  auto 100px;
+    /* margin-top: 50px; */
+}
+.banner {
+    margin-top: 50px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/BannerImage.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 600px;
+    width: 1320px;
+}
+
+
+.banner .banner-text h4{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.banner .banner-text h2{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+width: 632px;
+}
+.banner-text{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 177px;
+}
+.discount-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.discount-text h3{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 75px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 100px;
+}
+
+.discount-text p{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 40px;
+}
+.discount-text h5{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.discount-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.discount-img img{
+    width: 802.9px;
+    height: 500px;
+}
+
+.party-banner {
+    margin-top: 50px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 600px;
+    width: 1320px;
+}
